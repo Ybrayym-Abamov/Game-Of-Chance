@@ -1,0 +1,78 @@
+@font-face {
+        font-family: 'fightkid';
+        src: url('font/fightkid.ttf');
+}
+body {
+    background: lightskyblue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px;
+    font-size: 25px;
+}
+
+.Texts {
+    margin-top: 100px;
+    display: inline-block;   
+}
+
+.Option {
+    margin-top: 100px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.Boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#youBox {
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+#You {
+    width: 30%;
+    font-size: 25px;
+}
+
+#VS {
+    width: 30%;
+    font-size: 80px;
+    font-family: 'fightkid'
+}
+
+#Comp {
+    width: 30%;
+    font-size: 25px;
+}
+
+#compBox {
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+.Choices {
+    margin: -95px 965px 0 0;
+}
+
+
+#secretBox {
+    border: 1px solid lightskyblue;
+    width: 250px;
+    height: 100px;
+    color: red;
+    font-size: 25px;
+    margin-top: 85px;
+    margin-left: 50px;
+}
